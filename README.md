@@ -1,24 +1,13 @@
----
-jupyter:
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.7.12
-  nbformat: 4
-  nbformat_minor: 4
----
+## In this dataset I wanted to make a Machine Learning model to predict star type from the other variables, and learn more about data science concepts along the way
 
-::: {.cell .code execution_count="148" _cell_guid="b1076dfc-b9ad-4769-8c92-a6c4dae69d19" _uuid="8f2839f25d086af736a60e9eeb907d3b93b6e0e5" execution="{\"iopub.execute_input\":\"2023-01-15T03:12:07.857338Z\",\"iopub.status.busy\":\"2023-01-15T03:12:07.856820Z\",\"iopub.status.idle\":\"2023-01-15T03:12:07.868148Z\",\"shell.execute_reply\":\"2023-01-15T03:12:07.866766Z\",\"shell.execute_reply.started\":\"2023-01-15T03:12:07.857296Z\"}" trusted="true"}
+# Made possible thanks to the below sources:
+
+<https://jayant017.medium.com/hyperparameter-tuning-in-xgboost-using-randomizedsearchcv-88fcb5b58a73>
+
+<https://www.youtube.com/watch?v=ap2SS0-XPcE>
+
+<https://www.kaggle.com/learn/intermediate-machine-learning>
+
 ``` python
 # This Python 3 environment comes with many helpful analytics libraries installed
 # It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python
@@ -39,21 +28,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 # You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session
 ```
 
-::: {.output .stream .stdout}
-    /kaggle/input/star-dataset/6 class csv.csv
-:::
-:::
 
-::: {.cell .markdown}
-# In this dataset I wanted to make a Machine Learning model to predict star type from the other variables, and learn more about data science concepts along the way
-
-# Made possible thanks to the below sources:
-
-<https://jayant017.medium.com/hyperparameter-tuning-in-xgboost-using-randomizedsearchcv-88fcb5b58a73>
-
-<https://www.youtube.com/watch?v=ap2SS0-XPcE>
-
-<https://www.kaggle.com/learn/intermediate-machine-learning>
 :::
 
 ::: {.cell .markdown}
